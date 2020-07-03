@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+    <testcase classname="Ecommerce create an account Feature" name="Ecommerce create account Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is already in login Page.........................................skipped
+When Title of log in page is Login My Store.................................skipped
+Then user enter email.......................................................skipped
+Then user click on Create an account button.................................skipped
+Then user enter personal details............................................skipped
+Then user click on register.................................................skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

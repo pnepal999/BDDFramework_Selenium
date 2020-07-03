@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Ecommerce create account Scenario",
+        "description": "",
+        "id": "ecommerce-create-an-account-feature;ecommerce-create-account-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is already in login Page",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.user_is_already_in_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Title of log in page is Login My Store",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.Title_of_log_in_page_is_Login_My_Store()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enter email",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.user_enter_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test1212@example.com"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click on Create an account button",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.user_click_on_Create_an_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user enter personal details",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.user_enter_personal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Salman",
+                  "Khan",
+                  "testing",
+                  "Salman",
+                  "Khan",
+                  "1234 Main St",
+                  "Nowhere",
+                  "Taxes",
+                  "12345",
+                  "9723645896"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click on register",
+            "match": {
+              "location": "CreateAnAccountStepsDefinition.user_click_on_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ecommerce create an account Feature",
+    "description": "",
+    "id": "ecommerce-create-an-account-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Rupa Acharya/eclipse-workspace/EcommerceBDDFramework/src/main/java/featuers/CreateAccount.feature"
+  }
+]
